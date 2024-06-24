@@ -1,0 +1,16 @@
+
+Ref:
+
+https://docs.dapr.io/operations/hosting/self-hosted/self-hosted-no-docker/
+https://docs.dapr.io/reference/components-reference/supported-bindings/
+
+
+Java:
+
+dapr run --app-id batch-sdk --app-port 8080 --resources-path components
+
+JS:
+
+dapr run --app-id batch-sdk --app-port 5005 --resources-path components
+
+
